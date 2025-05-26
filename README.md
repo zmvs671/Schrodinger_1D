@@ -29,10 +29,10 @@ $$
 
 
 ## Estructura del repositorio
-├── metodos/ # Implementaciones de los métodos numéricos
-├── problemas/ # Ejemplos aplicando los métodos a diferentes potenciales
-├── requeriments.txt # Dependencias necesarias 
-├── README.md # Este archivo
+- metodos/ --> Implementaciones de los métodos numéricos
+- problemas/ --> Ejemplos aplicando los métodos a diferentes potenciales
+- requeriments.txt --> Dependencias necesarias 
+- README.md --> Este archivo
 
 ## Ejemplos incluídos
 Todos los ejemplos están resueltos en notebooks individuales
