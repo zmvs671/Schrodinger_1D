@@ -85,6 +85,7 @@ def secante(f, x0, x1, epsilon=1e-6):
     f2 = f(x2)  # Evaluamos la funcion en la nueva aproximacion
 
     if abs(f2) < epsilon:
+      return x2 
       break  # Criterio de convergencia
     
     # Actualizamos las variables para la siguiente iteracion
@@ -93,7 +94,6 @@ def secante(f, x0, x1, epsilon=1e-6):
     x0 = x1
     x1 = x2
 
-    return x2  # Regresa la mejor aproximacion de la raiz
 
 def QRdescomp(A):
     '''
