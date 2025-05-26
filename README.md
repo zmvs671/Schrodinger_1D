@@ -13,7 +13,7 @@ $$
 ## Métodos numéricos implementados
 
 - **Diferencias finitas centradas**  
-  Discretización directa de la ecuación para reformularla como un problema de autovalores.
+  Implementada para la verificación de resultados analíticos exactos.
   
 - **Algoritmo QR**  
   Para la diagonalización de matrices tridiagonales en problemas de valores y vectores propios.
